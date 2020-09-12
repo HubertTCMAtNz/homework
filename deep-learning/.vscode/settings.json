@@ -46,6 +46,6 @@
   "[typescriptreact]": {
     "editor.formatOnSave": true
   },
-  "python.pythonPath": "${workspaceFolder}\\venv\\bin\\python",
+  "python.pythonPath": "${workspaceFolder}/venv/bin/python",
   "python.venvPath": "${workspaceFolder}\\venv"
 }
