@@ -1,0 +1,51 @@
+{
+  "editor.formatOnSave": true,
+  // Place your settings in this file to overwrite default and user settings.
+  "files.exclude": {
+    "**/.git": true, // this is a default value
+    "**/.DS_Store": true, // this is a default value
+    //"**/node_modules": true, // this excludes all folders
+    // named "node_modules" from
+    // the explore tree
+    // alternative version
+    //"node_modules": true, // this excludes the folder
+    // only from the root of
+    // your workspace
+    "**/bin": true,
+    "**/gradle": true
+  },
+  "files.watcherExclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "*.class": true,
+    "*.jar": true
+  },
+  "search.exclude": {
+    "build/": true,
+    "**/node_modules": true,
+    "node_modules": true
+  },
+  // The number of spaces a tab is equal to.
+  "editor.tabSize": 4,
+  // Insert spaces when pressing Tab.
+  "editor.insertSpaces": true,
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+  "editor.detectIndentation": false,
+  "editor.renderWhitespace": "all",
+  // reference: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "python.pythonPath": "${workspaceFolder}\\venv\\bin\\python",
+  "python.venvPath": "${workspaceFolder}\\venv"
+}
